@@ -1,0 +1,94 @@
+# Dev
+python-dotenv==1.0.1
+pytest==8.3.4
+pytest-mock==3.14.0
+pytest-asyncio==0.25.3
+responses==0.25.6
+
+# Basics
+loguru==0.7.3
+pydantic==2.10.1
+pydantic-settings==2.6.1
+pandera[hypotheses,strategies,pyspark]==0.21.1
+hypothesis==6.122.3
+
+# CLI
+click>=8.1.7
+
+# Data version control
+dvc[s3]==3.58.0
+
+# UI
+chainlit==2.2.1
+plotly==5.24.1
+
+# API Server development
+fastapi==0.115.6
+
+# Web scraping
+beautifulsoup4==4.13.0
+
+# Basic data handling
+pyarrow==18.1.0
+pandas==2.2.3
+numpy==1.26.4
+duckdb==1.1.3
+scipy==1.14.1
+json-stream==2.3.3
+PyYAML==6.0.2
+
+# Random Generation
+faker==33.1.0
+ClusterShell==1.9.2
+
+# SQLAlchemy and extensions
+sqlalchemy==2.0.36
+duckdb_engine==0.13.6
+
+# Backend storage access
+s3fs==2024.9.0
+
+# Vector stores
+chromadb==0.6.3
+
+# Document processing
+docutils==0.21.2
+
+# OpenAI access
+openai==1.65.2
+
+# LLM Chaining
+langchain==0.3.19
+langchain-community==0.3.18
+langchain-openai==0.3.7
+langchain-huggingface==0.1.2
+langchain-ollama==0.2.3 
+langsmith==0.3.11
+
+# Jupyter
+ipython==8.30.0
+ipykernel==6.29.5
+jupyterlab==4.3.3
+
+# Daemon management for background servers
+supervisor==4.2.5
+
+# Hugging Face
+huggingface-hub==0.29.1
+datasets==3.2.0
+transformers==4.49.0
+accelerate==1.4.0
+
+# Pytorch
+torch==2.6.0
+torchaudio==2.6.0
+torchvision==0.21.0
+
+# Agents
+# TBD
+
+# NLP libraries (metrics, validation and etc)
+nltk==3.9.1
+rouge_score==0.1.2
+bert-score==0.3.13
+selfcheckgpt==0.1.7
