@@ -1,3 +1,0 @@
-Column,Description,Type,Anonymized,isPrimary,isForeign
-user,It is the unique code of the users who submit the jobs/workloads or allocation_ids on the system,string,false,true,false
-description,Description of the user,string,false,false,false

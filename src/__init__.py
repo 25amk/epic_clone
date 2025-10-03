@@ -1,3 +1,0 @@
-"""
-src - EPIC specific code
-"""
